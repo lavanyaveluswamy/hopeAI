@@ -1,0 +1,16 @@
+A company works with number of employees, all the works are dependents on the employees. Even 
+if one of the employees resign the job immediately then assigned work will be not finished at the 
+time, so delivery of the project to the clients will be delayed. Company planned to make solution for 
+this, they want to know which employee may resign next. If they know previously, they can arrange 
+alternative to avoid such problem. As an AI Engineer you must give Solution to this. 
+
+A) How will you achieve this in AI? 
+    We can use the AI to predict the employee who is going to resign form his job    
+B) Find out the 3 -Stage of Problem Identification 
+    Domain selection - Machine learning
+    learning model - Supervised learning
+                     Classification
+C) Name the project - Employee resgination prediction
+D) Create the dummy Dataset.
+
+    Factor1 factor2 factor 3 resign
