@@ -1,13 +1,11 @@
 import math
   
-class SubfieldsInAI:
+class MultiFunctionInClass:
     def subfieldsinAI():
         subFields = ["Machine Learning", "Deep Learning", "NLP", "Timeseriesanaysis"]
         print("Sub fields in ai are")
         for field in subFields:
             print(field)
-
-class OddEven:
     def OddEven():
         number = int(input("Enter a Number"))
         if number%2 == 0:
@@ -16,7 +14,6 @@ class OddEven:
             message = "Odd"
         return message
 
-class ElegiblityForMarriage:
     def eligiblityForMarriage(gender, age):
         if gender=="Male" and age >=21:
             status = "Eligible"
@@ -26,13 +23,11 @@ class ElegiblityForMarriage:
             status ="Not Eligible"
         return status
 
-class FindPercent:
     def findPercent(s1,s2,s3,s4,s5):
         total = s1+s2+s3+s4+s5
         percentage = (total / 500) * 100
         return percentage
 
-class Triangle:
     def __init__(self, a,b,c):
         self.a = a
         self.b = b
